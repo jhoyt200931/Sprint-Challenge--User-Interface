@@ -36,13 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would tell them that semantic HTML is a way to give meaning to your code and make it easy to read for developers, accessible to everyone, and more visible to search engines.
+
 2. What are the 4 areas of the box model?
+
+The 4 areas of the box model are (1. Content 2. Padding 3. Border 4. Margin)
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+"align-items: center" works on the cross-axis (Not always the vertical axis!!!)
+
 4. Explain why git is valuable to a team of developers.
 
+Git is valuable to a team of developers because it allows multiple people to work on code and make their personal code available to team members, giving the ability to avoid conflicting code, it also allows for version control which assists in finding and removing bugs introduced in later versions of code.
+
 5. Define mobile-first design in your own words.
+
+Mobile design means designing your site/application specifically to work with mobile devices first, and then working to make it accessible to desktops/laptops, because almost everyone does everything internet related on their mobile devices these days.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,11 +60,11 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2:  Minimum Viable Product
