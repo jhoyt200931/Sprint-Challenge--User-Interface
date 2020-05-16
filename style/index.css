@@ -141,6 +141,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 #B1 {
     background: teal;
 }
@@ -202,4 +203,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+@media(max-width: 500px) {
+
+    .navigation {
+        width: 60%;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    nav {
+        width: 10%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-right: 10%;
+    }
+    a{
+        margin: 2px auto;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .jumbo {
+        margin-top: 40px;
+    }
+
+    .top-content {
+        flex-direction: column;
+        align-content: center;
+    }
+    .middle-content>h2 {
+        text-align: center;
+    }
+    .middle-content .boxes {
+        flex-direction: column;
+        align-content: center;
+    }
+    .bottom-content {
+        width: 50%;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 27%;
+    }
+
+
 }
